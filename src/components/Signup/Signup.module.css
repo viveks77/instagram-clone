@@ -1,0 +1,81 @@
+.Wrapper{
+    width: 400px;
+    background-color: white;
+    border : 1px solid #DBDBDB;
+    border-radius: 5px;
+    margin : 2rem auto 0.8rem auto;
+    padding : 2rem 0;
+}
+
+.Wrapper h4{
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #8E8E8E;
+    margin-top: 20px;
+}
+
+.Wrapper p{
+    display: block;
+    font-size: 13px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: #8E8E8E;
+}
+
+
+.Logo img{
+    margin-bottom: 1.5rem;
+    margin : auto;
+    display: block;
+}
+
+.FormField{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.FormField input{
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    font-size: 14px;
+}
+
+.FormField input[type="submit"]{
+    width: 74%;
+    margin-top: 5px;
+    background-color: #0095F6;
+    color: white;
+    font-size: large;
+    border: 1px solid #0095F6;
+    cursor : pointer;
+}
+
+.Footer{
+    width: 400px;
+    background-color: white;
+    border : 1px solid #DBDBDB;
+    border-radius: 5px;
+    margin : 0.8rem auto;
+}
+
+.Footer p{
+    display: block;
+    margin: 30px;
+    text-align: center;
+}
+
+.Footer a{
+    text-decoration: none;
+    color : #0095F6;
+}

@@ -1,0 +1,16 @@
+.Wrapper{
+    margin: auto;
+  margin-top: 4rem;
+  width: 450px;
+  text-align: center;
+}
+
+.Wrapper p{
+    padding-top: 0.3rem;
+}
+
+.Wrapper svg{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1rem;
+}

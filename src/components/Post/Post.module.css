@@ -1,0 +1,50 @@
+.PostWrapper{
+    max-width : 613px;
+    background : white;
+    border : 1px solid #DBDBDB;
+    margin-bottom : 1.5rem;
+    
+}
+
+.PostHeader{
+    display: flex;
+    align-items: center;
+    padding: 0px 0.5rem;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.PostHeader p{
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.PostImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.PostActions{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-between;
+}
+
+.PostActions svg{
+    margin-right: 1rem;
+}
+
+.PostCaption {
+    padding: 0px 0.5rem;
+}
+
+.PostCaption p {
+    margin : 5px 0px 10px 0px;
+}
+
+.CommentsSection{
+    padding : 0.5rem 0.5rem;
+    border-top: 1px solid #DBDBDB;
+}

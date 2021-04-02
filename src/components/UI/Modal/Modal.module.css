@@ -1,0 +1,15 @@
+.Wrapper{
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 5px 0px 5px;
+    left: 35%;
+    top: 30%;
+    max-height: 450px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in;
+    overflow: scroll;
+}

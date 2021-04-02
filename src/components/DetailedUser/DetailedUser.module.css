@@ -1,0 +1,32 @@
+.ProfileTab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 60%;
+    font-size: 1rem;
+    color: #6e6b6b;
+}
+
+.ProfileTab div{
+    display: flex;
+    cursor: pointer;
+    margin-right: 3rem;
+    margin-bottom: 10px;
+}
+
+.ProfileTab svg{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.ProfileTab span{
+    letter-spacing: 3px;
+}
+
+.Tab{
+    display: block;
+    margin : auto;
+    max-width: 970px;
+}

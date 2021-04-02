@@ -1,0 +1,22 @@
+.Wrapper{
+    width: 280px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.Suggestions {
+    position: sticky;
+    top : 10rem;
+    width: 100%;
+}
+
+.SuggestionsCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.SuggestionsWrapper {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,103 @@
+.Container {
+    max-width : 815px;
+    margin : 2rem auto;
+    display : block;
+    border : 1px solid #DBDBDB;
+    background-color: white;
+}
+
+.Wrapper {
+   width: 100%;
+   display: flex;
+
+}
+
+.PostImg{
+    object-fit: cover;
+    max-width: 478px;
+    min-height : 570px;
+}
+
+.SideBar{
+    width: 100%;
+}
+
+.UserCardHeader {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    justify-content: space-between;
+}
+
+.UserCardHeader svg{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.UserCard{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.UserCard span{
+    margin :0px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Comments{
+    max-width: 100%;
+    height: 380px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+
+.PostActions{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-between;
+}
+
+.PostActions svg{
+    margin-right: 1rem;
+}
+
+.PostCaption {
+    padding: 0px 0.5rem;
+}
+
+.PostCaption p {
+    margin : 5px 0px 10px 0px;
+}
+
+.AddComment{
+    padding: 0.7rem 0.2rem;
+    border-top: 1px solid #DBDBDB;
+}
+
+.AddComment form{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.AddComment input{
+    width: 100%;
+    padding: 0.5rem 0.2rem;
+    border : none;
+    outline : none;
+    font-size: 0.9rem;
+}
+
+.Modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Modal p{
+    margin : 10px 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.Wrapper{
+    margin: 2rem auto;
+    width: 750px;
+    height: auto;
+    border : 1px solid #DBDBDB;
+    background-color: white;
+}
+
+.ImageInput{
+    padding: 10px;
+    outline: none;
+}
+
+.PostWrapper{
+    width: 100%;
+}
+
+.NewPostHeader{
+    display: flex;
+    margin: 0px 10px;
+    justify-content: space-between;
+}
+
+.NewPostHeader h3:first-child{
+    color : red;
+}
+
+.NewPostHeader h3{
+    cursor : pointer;
+}
+
+.NewPostHeader h3:last-child {
+    color : #0095F6;
+}
+
+.NewPost{
+    width: 100%;
+    height: 100%;
+}
+
+.NewPost img{
+    width: 100%;
+    height: 100%;
+}
+
+.NewPost textarea{
+    width: 95%;
+    border: none;
+    height: 50%;
+    font-size: 1.2rem;
+    margin : 10px 20px;
+    border: none;
+    outline: none;
+    resize: none;
+}

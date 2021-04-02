@@ -1,0 +1,81 @@
+.Wrapper{
+    margin: 1rem;
+    width: 100%;
+}
+
+.FormGroup{
+    margin : 10px;
+}
+
+.InputAvatar{
+    display: flex;  
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.InputAvatar img{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.InputUser{
+    margin-left: 20px;
+}
+
+.InputFile{
+    margin: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.InputFile label{
+    color: #0095F6;
+    cursor: pointer;
+}
+
+.InputFile input[type="file"]{
+    position: absolute;
+    top : 0;
+    left : 0;
+    opacity: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.InputUser p{
+    font-size: 1.2rem;
+    margin : 8px 0px;
+}
+
+.InputGroup {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.InputGroup label {
+    width: 15%;
+    font-weight: 500;
+}
+
+.InputGroup input{
+    width: 50%;
+    display: block;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    font-size: 14px;
+}
+
+.FormGroup input[type="submit"]{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #0095F6;
+    color: white;
+    border: 1px solid #0095F6;
+    cursor : pointer;
+}

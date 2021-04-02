@@ -1,0 +1,26 @@
+.Wrapper{
+    width: 70%;
+    border : 1px solid #DBDBDB;
+    margin: auto;
+    margin-top: 40px;
+    display : flex;
+    background: white;
+}
+
+.Tabs {
+    width: 20%;
+    border-right: 1px solid #DBDBDB;
+}
+
+.TabsData{
+    width: 100%;
+    padding: 3px;
+    font-size: 0.9rem;
+}
+
+.TabsData p {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+

@@ -1,0 +1,38 @@
+.Navbar{
+    padding: 10px;
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.Nav{
+    display: grid;
+    grid-template-columns: 1fr 20rem 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Logo img{
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.NavLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavLinks a{
+    margin : 0px 10px;
+}
+
+.NavLinks svg{
+    fill: black;
+}

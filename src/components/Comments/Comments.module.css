@@ -1,0 +1,20 @@
+.Wrapper{
+    overflow: scroll;
+    height: 100%;
+    padding: 10px 15px 8px 15px;
+}
+
+.UserCard {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.UserCardMeta {
+    margin-left: 15px;
+    font-size : 0.9rem;
+}
+
+.UserCardMeta p{
+    margin: 3px 0px;
+}
